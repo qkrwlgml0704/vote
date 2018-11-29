@@ -191,6 +191,10 @@
     height: 45px;
     margin-top: 20px;
 }
+#pc .view .ele li:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
 #pc .view .table{
     width: 100%;
     margin: 0 auto;
@@ -205,6 +209,59 @@
     margin-top: 5px;
     width: 50px; height: 50px;
 }
+#pc .modal{
+    width: 100%; height: 100%;
+    position: fixed;
+    left: 0; top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1; 
+    opacity: 0;
+}
+#pc .modal.active{
+    display: block;
+    opacity: 1;
+}
+#pc .modal.active .popup{
+    top: 25%;
+    opacity: 1;
+}
+#pc .modal .popup{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: fixed;
+    padding: 30px;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    background-color: #fff;
+    transform: translate(-50%, -15%);
+    border-radius: 10px;
+}
+#pc .modal .popup img{
+    width: 200px;
+    height: 200px;
+}
+#pc .modal .pop_box{
+    width: 100%;
+}   
+#pc .modal .pop_view{
+    width: 100%;
+}   
+#pc .modal p{
+    margin: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+#pc .modal h1{
+    color: #fff;
+    float: right;
+    margin: 20px;
+    font-size: 50px;
+}
+#pc .modal h1:hover{
+    cursor: pointer;
+}
 #phone{
     display: none;
     width: 100%;
@@ -215,6 +272,7 @@
     width: 600px;
     height: 1100px;
     margin: 0 auto;
+    position: relative;
 }
 #phone .phone-img img{
     width: 600px;
@@ -396,4 +454,20 @@
 }
 #phone .view .table img{
     width: 35px; height: 35px;
+}
+#phone .modal{
+    width: 100%; height: 100%;
+    position: fixed;
+    left: 0; top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1; 
+    opacity: 0;
+}
+#phone .modal.active{
+    display: block;
+    opacity: 1;
+}
+#phone .modal.active .popup{
+    top: 25%;
+    opacity: 1;
 }
