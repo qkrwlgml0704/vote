@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.select{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #e5e5e5;
+}
+.select ul{
+    width: 140px;
+    height: 50px;
+    margin: 0 auto;
+}
+.select ul li:hover{
+    cursor: pointer;
+}
+.select ul li{
+    width: 70px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    float: left;
+}
+.select ul li a{
+    height: 100%;
+    display: block;
+}
+.select ul li.mo{
+    border-bottom: 5px solid #a72a2a;
+    transition: 0.7s;
+}
+.select img{
+    width: 50px; height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+#pc .logo{
+    width: 100%;
+    height: 70px;
+    background-color: #2c3e50;
+}
+#pc .logo p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    line-height: 70px;
+    font-size: 25px;
+}
+#pc .banner1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 75px;
+}
+#pc .banner1 ul.menu {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+#pc .banner1 ul.menu li {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+
+#pc .banner1 ul.menu li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #2c3e50;
+}
+#pc .banner1 ul.menu li a:hover{
+    text-decoration: none;
+}
+#pc .banner1 ul.menu li:hover {
+    border-bottom: 2px solid #2c3e50;
+}
+
+#pc .banner1 ul.menu li.on {
+    border-bottom: 2px solid #2c3e50;
+}
+#pc .content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+#pc #con11, 
+#pc #con12, 
+#pc #con13, 
+#pc #con14 {
+    margin: 0 auto;
+    width: 500px;
+    height: 550px;
+}
+#pc #con12, 
+#pc #con13{
+    padding-top: 20px;
+}
+#pc #con12, 
+#pc #con13, 
+#pc #con14{
+    display: none;
+}
+
+#pc .content div.on {
+    display: block;
+}
+
+#pc .content img {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+}
+#pc .content .title {
+    width: 100%;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 23px;
+    padding: 32px 15px;
+    margin: 0;
+}
+#pc .content button{
+    background-color: #2c3e50;
+    width: 100px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#pc .content select{
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    margin: 0px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: rgb(71, 71, 71);
+}
+
+#pc .content button:hover{
+    cursor: pointer;
+}
+
+#pc .content .click{
+    width: 70px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+#pc .view{
+    margin-top: -10px;
+}
+#pc .view ul li{
+    border: 1px solid gray;
+    color: rgb(71, 71, 71);
+    padding: 0px 20px;
+    margin: 10px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+#pc .view p{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    margin-bottom: 55px;
+}
+#pc .view .ele span{
+    float: left;
+}
+#pc .view .ele img{
+    float: right;
+    width: 90px;
+    height: 45px;
+    margin-top: 20px;
+}
+#pc .view .table{
+    width: 100%;
+    margin: 0 auto;
+}
+#pc .view .table td, th{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 19px;
+}
+#pc .view .table img{
+    margin-top: 5px;
+    width: 50px; height: 50px;
+}
+#phone{
+    display: none;
+    width: 100%;
+    height: 1100px;
+    background-color: #e5e5e5;
+}
+#phone .posi{
+    width: 600px;
+    height: 1100px;
+    margin: 0 auto;
+}
+#phone .phone-img img{
+    width: 600px;
+    height: 1100px;
+    padding: 40px 0px;
+}
+
+#phone .rab{
+    width: 420px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin: 200px 0px 0px 88px;
+    overflow: auto;
+}
+#phone .logo{
+    width: 100%;
+    height: 70px;
+    background-color: #2c3e50;
+}
+#phone .logo p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    line-height: 70px;
+    font-size: 25px;
+}
+#phone .banner2 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 55px;
+}
+#phone .banner2 ul.menu {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+#phone .banner2 ul.menu li {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+
+#phone .banner2 ul.menu li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+#phone .banner2 ul.menu li a:hover{
+    text-decoration: none;
+}
+#phone .banner2 ul.menu li:hover {
+    border-bottom: 2px solid #2c3e50;
+}
+
+#phone .banner2 ul.menu li.on {
+    border-bottom: 2px solid #2c3e50;
+}
+#phone .content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+#phone #con21, 
+#phone #con22, 
+#phone #con23, 
+#phone #con24 {
+    margin: 0 auto;
+    width: 400px;
+    height: 480px;
+}
+#phone #con22, 
+#phone #con23{
+    padding-top: 20px;
+}
+
+#phone #con22, 
+#phone #con23, 
+#phone #con24{
+    display: none;
+}
+
+#phone .content div.on {
+    display: block;
+}
+
+#phone .content img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+#phone .content .title {
+    width: 100%;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 23px;
+    padding: 32px 15px;
+    margin: 0;
+}
+#phone .content button{
+    background-color: #2c3e50;
+    width: 100px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#phone .content button:hover{
+    cursor: pointer;
+}
+
+#phone .content .click{
+    width: 70px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+#phone .view{
+    margin-top: -20px;
+}
+#phone .view ul li{
+    border: 1px solid gray;
+    color: rgb(71, 71, 71);
+    padding: 0px 20px;
+    margin: 10px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 15px;
+    font-size: 16px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+#phone .view p{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#phone .view .ele span{
+    float: left;
+}
+#phone .view .ele img{
+    float: right;
+    width: 100px;
+    height: 36px;
+    margin-top: 12px;
+}
+
+#phone .content select{
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    margin: 0px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: rgb(71, 71, 71);
+}
+#phone .view .table{
+    width: 100%;
+    margin: 0 auto;
+}
+#phone .view .table td, th{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+#phone .view .table img{
+    width: 35px; height: 35px;
+}
